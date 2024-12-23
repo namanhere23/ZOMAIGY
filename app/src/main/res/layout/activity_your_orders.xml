@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".YourOrders">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e3e3e3"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/burger"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:textSize="16sp"
+                        android:text="Burger King\nGomti Nagar, Lucknow"/>
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#00bb77"
+                        android:backgroundTint="#e3e3e3"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:paddingLeft="15dp"
+                        android:text="View Menu >"/>
+
+
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00bb77"
+                    android:layout_marginTop="25dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="Reorder"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="1 * Pepsi can \n1 * Cheese Burger\n1 * Paneer burger"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/black"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="Order Placed on 21 Dec, 11:25 PM\nDelivered"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff4a5a"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="₹450.00"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e3e3e3"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizza"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:textSize="16sp"
+                        android:text="Dominos\nGomti Nagar, Lucknow"/>
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#00bb77"
+                        android:backgroundTint="#e3e3e3"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:paddingLeft="15dp"
+                        android:text="View Menu >"/>
+
+
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00bb77"
+                    android:layout_marginTop="25dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="Reorder"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="5 * Paneer Pizza \n4 * Tandoori Pizza\n"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/black"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="Order Placed on 19 Dec, 11:25 PM\nDelivered"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff4a5a"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="₹2500.00"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e3e3e3"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cake"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:textSize="16sp"
+                        android:text="Bakingo\nGomti Nagar, Lucknow"/>
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#00bb77"
+                        android:backgroundTint="#e3e3e3"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:paddingLeft="15dp"
+                        android:text="View Menu >"/>
+
+
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00bb77"
+                    android:layout_marginTop="25dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="Reorder"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="1 * 2 Kg Chocalate Cake"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/black"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="Order Placed on 23 Sept, 11:25 PM\nDelivered"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff4a5a"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="₹2500.00"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
